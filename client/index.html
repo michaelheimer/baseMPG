@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Multi player game</title>
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+</head>
+<body>
+  <div class="game-wrapper">
+  	<ul id="events">
+  	</ul>
+  	<div class="button-wrapper">
+  		<form id="chat-form">  
+  		  <input id="chat"/>
+  		  <button id="send-chat">Chat</button>
+  	   </form>
+  		<button id="paper">Paper</button>
+  		<button id="rock">Rock</button>
+  		<button id="scissors">Scissor</button>
+  	</div>
+  </div>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="src/client.js"></script>
+</body>
+</html>
